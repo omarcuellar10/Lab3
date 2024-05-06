@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRUD App</title>
+    <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+    <h1>CRUD App</h1>
+    
+    <!-- Formulario para agregar un nuevo registro -->
+    <h2>Agregar nuevo usuario:</h2>
+    <form id="addForm" method="POST" action="/usuarios">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required>
+        <label for="email">Email:</label>
+        <input type="text" id="email" name="email" required>
+        <button type="submit">Agregar</button>
+	
+	
+	<a href="editarUsuario.html" class="button">Ir a otro sitio</a>
+    </form>
+
+    <!-- Tabla para mostrar los registros -->
+    <h2>Lista de usuarios:</h2>
+<button id"editar">Editar</button>
+    <table id="tablaUsuarios">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Nombre</th>
+                <th>Email</th>
+            </tr>
+        </thead>
+        <tbody id="userList">
+            <!-- Aquí se insertarán los registros dinámicamente -->
+        </tbody>
+    </table>
+
+    <!-- Script para manipulación de los datos -->
+    <script src="/script.js"></script>
+	
+});
+
+</body>
+</html>

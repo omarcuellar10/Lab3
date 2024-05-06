@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0; /* Blanco */
+    color: #333; /* Azul oscuro */
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2 {
+    color: #007bff; /* Azul */
+}
+
+form {
+    background-color: #fff; /* Blanco */
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    color: #555; /* Gris */
+}
+
+input[type="text"],
+input[type="email"],
+button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc; /* Gris claro */
+    border-radius: 5px;
+}
+
+button[type="submit"] {
+    background-color: #007bff; /* Azul */
+    color: #fff; /* Blanco */
+    cursor: pointer;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid #ccc; /* Gris claro */
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #007bff; /* Azul */
+    color: #fff; /* Blanco */
+}
+
+.a-as-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff; /* Color de fondo del botón */
+    color: #ffffff; /* Color del texto del botón */
+    text-decoration: none; /* Elimina el subrayado predeterminado de los enlaces */
+    border-radius: 5px; /* Bordes redondeados */
+    border: 1px solid #007bff; /* Borde del botón */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+    transition: background-color 0.3s, color 0.3s; /* Transición suave para cambios de color */
+  }
+  
+  .a-as-btn:hover {
+    background-color: #0056b3; /* Cambia el color de fondo al pasar el mouse */
+    border-color: #0056b3; /* Cambia el color del borde al pasar el mouse */
+  }
+  
